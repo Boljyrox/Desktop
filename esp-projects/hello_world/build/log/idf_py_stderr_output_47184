@@ -1,0 +1,9 @@
+Command: /Users/balaji/.espressif/tools/python/v6.1/venv/bin/python /Users/balaji/.espressif/v6.1/esp-idf/tools/idf_monitor.py -p /dev/cu.usbmodem3101 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /Users/balaji/Desktop/esp-projects/hello_world/build/hello_world.elf /Users/balaji/Desktop/esp-projects/hello_world/build/bootloader/bootloader.elf -m '/Users/balaji/.espressif/tools/python/v6.1/venv/bin/python' '/Users/balaji/.espressif/v6.1/esp-idf/tools/idf.py' '-p' '/dev/cu.usbmodem3101'
+--- esp-idf-monitor 1.10.0 on /dev/cu.usbmodem3101 115200
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+--- 0x40378c0a: esp_cpu_wait_for_intr at /Users/balaji/.espressif/v6.1/esp-idf/components/esp_hw_support/cpu.c:64
+--- 0x403c8700: _stext at ??:?
+--- 0x403c8904: call_start_cpu0 at /Users/balaji/.espressif/v6.1/esp-idf/components/bootloader/subproject/main/bootloader_start.c:27
+[1;38;2;204;51;17m--- ERROR:[0m read failed: [Errno 6] Device not configured
+--- Waiting for the device to reconnect............
+

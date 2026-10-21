@@ -1,0 +1,2 @@
+source /Users/balaji/Desktop/esp-projects/hello_world/build/bootloader/gdbinit/symbols
+source /Users/balaji/Desktop/esp-projects/hello_world/build/bootloader/gdbinit/connect
